@@ -11,8 +11,8 @@
     <title>Daniel Son | Bootstrap Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Daniel Son</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+        <a class="navbar-brand" href="index.html">Daniel Son</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,8 +23,62 @@
             <a class="nav-item nav-link active" href="contact.html">Contact <span class="sr-only">(current)</span></a>
           </div>
         </div>
-      </nav>
+    </nav>
+    
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-lg-12">
+                <h3>Contact</h3>
+            </div>
+        </div>
 
+        <form>
+            <div class="form-row mb-3">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+              </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">What's your Myer's Briggs / 16personalities type?</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>ISFJ</option>
+                <option>ISFP</option>
+                <option>ISTJ</option>
+                <option>ISTP</option>
+                <option>INFJ</option>
+                <option>INFP</option>
+                <option>INTJ</option>
+                <option>INTP</option>
+                <option>ESFJ</option>
+                <option>ESFP</option>
+                <option>ESTJ</option>
+                <option>ESTP</option>
+                <option>ENFJ</option>
+                <option>ENFP</option>
+                <option>ENTJ</option>
+                <option>ENTP</option>
+                <option>What are you talkin' about?</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Shoot me a message!</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+        </form>    
+    </div>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
